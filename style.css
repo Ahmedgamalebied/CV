@@ -1,0 +1,166 @@
+html, body {
+    font-family: 'Ubuntu', sans-serif;
+    
+    background-color: black;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+   }
+
+   b {
+    font-size: 18px;
+  }
+
+*{
+    box-sizing: border-box;
+}
+
+
+.page {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .box {
+    flex: 25%;
+    background-color: #7e202094;
+    padding: 20px;
+    
+    
+  }
+ .second_box {
+    flex: 70%;
+    background-color: #7e202094;
+    padding: 20px;
+    
+  }
+  .pro-image {
+    background-image: url("pic.png");
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 0.5em;
+  }
+  .name{
+    text-align: left;
+    margin-left: 0.3em;
+    margin-top:  10em; 
+    color: darkblue;
+  }
+  .id1 {
+    background-color: black;
+    padding-bottom: 2em;
+   }
+
+   .info, .exp, .edu {
+    font-size: 16px;
+    color: crimson;
+    padding: 0.5em 1.5em;    
+  }
+  .skills, .language{
+    width: 100%;
+    background-color: black;
+    border-radius: 1em;
+  }
+  .skills, .language {
+    font-size: 12px;
+    text-align: center;  
+    color: white;
+  }
+  .html {
+      width: 90%;
+      background-color:brown;
+      border-radius: 1em;
+}
+.css {
+    width: 80%;
+    background-color: brown;
+    border-radius: 1em;
+}
+.js {
+    width: 65%;
+    background-color: brown;
+    border-radius: 1em;
+}
+.java {
+    width: 60%; 
+    background-color: brown; 
+    border-radius: 1em;
+}
+.arabic {
+    width: 100%;
+    background-color:brown;
+    border-radius: 1em;
+}
+.english {width: 75%; 
+    background-color: brown;
+    border-radius: 1em;
+}
+.french {width: 60%;
+    background-color: brown;
+    border-radius: 1em;
+}
+.german {
+    width: 40%;
+    background-color: brown;
+    border-radius: 1em;
+}
+
+mark {
+    padding: 5px;
+    background-color: darkred;
+    color:crimson;
+    border-radius: 0.2em;
+ }
+footer {
+      text-align: center;
+      text-decoration: none;
+      background-color:crimson;
+      color: brown;
+      padding: 1em;
+ }
+.social-links {
+      color: black;  
+ }
+.social-links :hover {
+      color:wheat;   
+ }
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+  @media only screen and (orientation: landscape) {
+    body {
+        background-color: lightblue;
+    }
+
+  
